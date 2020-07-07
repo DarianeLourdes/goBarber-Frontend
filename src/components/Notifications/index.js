@@ -8,8 +8,8 @@ import api from '../../services/api';
 import {
   Container,
   Badge,
-  NotificationList,
   Scroll,
+  NotificationList,
   Notification,
 } from './styles';
 
@@ -19,9 +19,9 @@ export default function Notifications() {
 
   const hasUnread = useMemo(
     () =>
-      !!notifications.find((notification) => notification.read === false)[
-        notifications
-      ]
+      Boolean(
+        notifications.find((notification) => notification.read === false)
+      )[notifications]
   );
 
   useEffect(() => {
@@ -31,13 +31,13 @@ export default function Notifications() {
       const data = response.data.map((notification) => ({
         ...notification,
         timeDistance: formatDistance(
-          parseISO(Notification.createdAt),
+          parseISO(notification.createdAt),
           new Date(),
           { addSuffix: true, locale: pt }
         ),
       }));
 
-      setNotifications(response.data);
+      setNotifications(data);
     }
 
     loadNotifications();
