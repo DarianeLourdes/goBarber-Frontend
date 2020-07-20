@@ -21,9 +21,9 @@ A versão web exibe ao prestador de serviço os horários de sua agenda.
 
 ![Sem título](https://user-images.githubusercontent.com/52112321/87887787-8f396180-c9fe-11ea-8039-06dc2c5a404d.png)
 
-![Sem título1](https://user-images.githubusercontent.com/52112321/87887795-9e201400-c9fe-11ea-8791-f2f615135ff3.png)
+![Sem título](https://user-images.githubusercontent.com/52112321/87981543-c9147180-caab-11ea-9050-33563c9deebc.png)
 
-![Sem título3](https://user-images.githubusercontent.com/52112321/87887860-2999a500-c9ff-11ea-820d-9ec7d300182f.png)
+![Sem título1](https://user-images.githubusercontent.com/52112321/87981554-cd408f00-caab-11ea-8d11-2834721e4256.png)
 
 
 ## Técnologias utilizadas
